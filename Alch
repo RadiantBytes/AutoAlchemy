@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Item to alch in row 4 col 4
+
+#WARNING: DO NOT PUT RARES IN THE ALCH SPOT
+
+while [ 1 ]; do
+	xdotool mousemove 1548 705 click $(( (RANDOM % 1 ) + 1 )) &
+	sleep $(( ( RANDOM % 1  ) + 2 ))
+done
